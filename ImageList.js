@@ -5,7 +5,7 @@ class ImageList extends React.Component {
 
   render(){
     return (
-      <table>
+      <table className='col-1'>
         <tbody>
           {this.props.imageData.map(image => 
             <ImageListRow onUpdate = {this.props.onUpdate} image={image}/>

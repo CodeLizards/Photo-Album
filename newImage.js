@@ -17,7 +17,7 @@ class NewImage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className ='input-image'>
         <form>
         
         <div>

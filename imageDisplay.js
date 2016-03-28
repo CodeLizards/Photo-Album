@@ -26,7 +26,7 @@ class ImageDisplay extends React.Component {
           <option>5</option>
 
         </select>
-        <span className="image-description">{' ' +this.props.image.rating+' out of 5'}</span>
+        <span className="image-rating">{' ' +this.props.image.rating+' out of 5'}</span>
       </div>
 
 
